@@ -6,7 +6,7 @@ public class Cross {
         for (int x = 1; x <= sideLength; x++) {
             ana = "";
             for (int y = 1; y <= sideLength; y++) {
-                if (x == sideLength / 2 | y == sideLength/2)  {
+                if (x == sideLength / 2 + 1 | y == sideLength/2 + 1)  {
                     ana += "8";
                 }else {
                     ana += " ";
